@@ -1,8 +1,6 @@
 #!/bin/bash
 
-# Arch Linux Fast Install - Быстрая установка Arch Linux https://github.com/ordanax/arch
 # Цель скрипта - быстрое развертывание системы с вашими персональными настройками (конфиг XFCE, темы, программы и т.д.).
-# Автор скрипта Алексей Бойко https://vk.com/ordanax
 
 
 loadkeys ru
