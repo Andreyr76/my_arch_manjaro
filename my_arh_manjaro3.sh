@@ -44,6 +44,11 @@ sudo tar -xzf themes.tar.gz -C ~/
 wget https://github.com/Andreyr76/my_arch_manjaro/raw/main/attach/icons.tar.gz
 sudo tar -xzf icons.tar.gz -C ~/
 
+echo 'Шрифты'
+wget https://github.com/Andreyr76/my_arch_uefi/raw/main/attach/fonts.tar.gz
+sudo tar -xzf fonts.tar.gz -C ~/
+sudo fc-cache -f -v
+
 yay -S x-arc-shadow papirus-maia-icon-theme-git breeze-default-cursor-theme breeze-obsidian-cursor-theme xcursor-breeze-serie-obsidian --noconfirm
 
 sudo pacman -S capitaine-cursors --noconfirm
@@ -59,7 +64,7 @@ sudo mv -f ~/downloads/bg.jpg /usr/share/backgrounds/xfce/bg.jpg
 
 echo 'Conky & bashrc'
 wget https://github.com/Andreyr76/my_arch_manjaro/raw/main/attach/bash.tar.gz
-tar -xzf bash.tar.gz -C ~/
+sudo tar -xzf bash.tar.gz -C ~/
 
 echo 'Подключаем zRam'
 yay -S zramswap --noconfirm
