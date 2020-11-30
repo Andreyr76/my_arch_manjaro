@@ -17,7 +17,7 @@ sudo pacman -Rs xfburn orage parole ristretto
 echo 'Установка базовых программ и пакетов'
 sudo pacman -S reflector firefox firefox-i18n-ru ufw f2fs-tools dosfstools ntfs-3g alsa-lib alsa-utils file-roller p7zip unrar gvfs aspell-ru pulseaudio pavucontrol youtube-dl peek --noconfirm
 
-sudo pacman -S sudo pacman -S pamac manjaro-settings-manager steam-manjaro gamemode game-devices-udev etcher woeusb gimp pix gcolor2 peek conky-lua xorg-xkill chromium flameshot veracrypt vlc freemind filezilla gimp libreoffice libreoffice-fresh-ru neofetch qbittorrent screenfetch plank telegram-desktop gparted evince keepassxc atom nano vim neovim featherpad fbreader audacious git ktouch klavaro clamtk mc htop tmux unrar zip ark gnome-disk-utility gedit uget smplayer smtube pycharm-community-edition --noconfirm
+sudo pacman -S pamac manjaro-settings-manager steam-manjaro gamemode game-devices-udev etcher woeusb gimp pix gcolor2 peek conky-lua xorg-xkill chromium flameshot veracrypt vlc freemind filezilla gimp libreoffice libreoffice-fresh-ru neofetch qbittorrent screenfetch plank telegram-desktop gparted evince keepassxc atom nano vim neovim featherpad fbreader audacious git ktouch klavaro clamtk mc htop tmux unrar zip ark gnome-disk-utility gedit uget smplayer smtube pycharm-community-edition --noconfirm
 
 gpg --keyserver keys.gnupg.net --recv-keys FC918B335044912E 
 
