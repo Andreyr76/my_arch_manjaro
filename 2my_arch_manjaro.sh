@@ -80,5 +80,5 @@ systemctl enable NetworkManager
 
 echo 'Установка завершена! Перезагрузите систему.'
 echo 'Если хотите подключить AUR, установить мои конфиги XFCE, тогда после перезагрзки и входа в систему, установите wget (sudo pacman -S wget) и выполните команду:'
-echo 'wget git.io/my_arch_manjaro3.sh && sh my_arch_manjaro3.sh'
+echo 'wget git.io/3my_arch_manjaro.sh && sh 3my_arch_manjaro.sh'
 exit
