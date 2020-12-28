@@ -22,7 +22,7 @@ sudo pacman -S chromium flameshot veracrypt vlc freemind filezilla gimp libreoff
 gpg --keyserver keys.gnupg.net --recv-keys FC918B335044912E 
 
 yay -Syy
-yay -S xflux hunspell-ru pamac-aur-git conky-lua timeshift tusk vscodium-bin figma-linux xorg-xkill teamviewer etcher-bin garuda-settings-manager-git dropbox ttf-symbola ttf-clear-sans --noconfirm
+yay -S xflux hunspell-ru pamac-aur-git conky-lua timeshift tusk vscodium-bin figma-linux xorg-xkill etcher-bin garuda-settings-manager-git dropbox ttf-symbola ttf-clear-sans --noconfirm
 
 echo 'Шрифты'
 wget https://github.com/Andreyr76/my_arch_uefi/raw/main/attach/fonts.tar.gz
@@ -52,7 +52,7 @@ sudo ufw enable
 echo 'Добавляем в автозагрузку:'
 sudo systemctl enable ufw
 
-echo 'Очистка''
+echo 'Очистка'
 rm -rf ~/downloads/
 
 echo 'Установка завершена!'
